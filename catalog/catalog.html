@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="catalog.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div id="filter" class="filter">filter</div>
+        <div id="catalog" class="catalog">
+            <div class="item">
+                <img src="data:image/png;base64,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" alt="">
+                <div><span>name:</span> <span> Lenovo</span></div>
+                <div><span>description:</span> <span> lorem erwr ewr</span></div>
+                <div><span>price:</span> <span> 100 </span></div>
+                <div><span>new:</span> <span> yes </span></div>
+                <div><span>tel:</span> <span> +994 55 55 55  </span></div>
+                <button>more info</button>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <script src="./catalog.js"></script>
+</body>
+</html>

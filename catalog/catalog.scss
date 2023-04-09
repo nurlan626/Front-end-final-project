@@ -1,0 +1,21 @@
+.catalog{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.item{
+    border: 2px solid rgb(0, 0, 0);
+    max-width: 300px;
+    padding: 10px;
+    text-align: center;
+    img {
+        width: 100%;
+    }
+    div{
+        display: flex;
+        justify-content: space-between;
+    }
+    button {
+        margin: 0 auto;
+    }
+}
